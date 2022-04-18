@@ -26,8 +26,8 @@ inputs:
     description: 'Max length of title. -1 to ignore the rule'
     required: false
     default: '-1'
-  title_example:
-    description: 'An example of the PR title that will be displayed if the regex match fails'
+  verbal_description:
+    description: 'Description of the title rules to display when the action fails'
     required: false
     default: ''
   github_token:
