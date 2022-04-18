@@ -17,6 +17,7 @@ steps:
     prefix_case_sensitive: false # title prefix are case insensitive
     min_length: 5 # Min length of the title
     max_length: 20 # Max length of the title
+    verbal_description: "The title must contain Jira Task-ID. E.g. 'PRO-21 Add red button' " # Description of the title rules to display when the action fails
     github_token: ${{ github.token }} # Default: ${{ github.token }}
 ```
 
